@@ -1,0 +1,24 @@
+{
+    "name": "asdfx/phergie-irc-plugin-react-apixu-weather",
+    "description": "Phergie plugin for returning weather information for a given location.",
+    "require": {
+        "phergie/phergie-irc-bot-react": "~2",
+        "phergie/phergie-irc-plugin-react-command": "~2",
+        "kitetail/zttp": "^0.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alex Mills",
+            "email": "alex@asdfx.us"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Asdfx\\Phergie\\Plugin\\Weather\\": "src"
+        }
+    }
+}
